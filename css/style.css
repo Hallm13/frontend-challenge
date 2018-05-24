@@ -1,0 +1,179 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* sage box */
+body {
+  background-color: #3535;
+  font-family: Roboto, sans-serif;
+  font-size: 10px;
+  width: 360px;
+}
+
+/* white box */
+section {
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+/* Top navigation */
+/* Navy blue box */
+.statusbar {
+  background-color: #1C313A;
+  width: 100%;
+  text-align: right;
+}
+
+.statusbar li {
+  display:inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  padding: 5px 1.5px 5px 1.5px;
+}
+
+.wifi {
+
+}
+
+.cellular {
+
+}
+
+.battery {
+
+}
+
+.time {
+  opacity: 0.9;
+}
+
+/* gray box */
+.app-bar {
+  background-color: #fff;
+  width: 100%;
+  margin-bottom: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+
+.app-bar li {
+  display:inline-block;
+}
+
+/* yellow box */
+.arrow {
+  padding: 19.5px 0px 19.5px 24px;
+}
+
+/* red box */
+.title {
+  text-align: center;
+  color: #455A64;
+  font-size: 20px;
+  padding-left: 40px;
+  font-weight: 500;
+}
+
+/* Middle content */
+
+.bus-card {
+  background-color: #E0E0E0;
+  width: 100%;
+  border-bottom: 1px solid #E0E0E0;
+  display: inline-block;
+}
+
+/* This makes the icons appear horizontally */
+.bus-card li {
+  display: inline-block;
+}
+
+.data {
+  width: 20%;
+  text-align: left;
+  padding: 31px 0px 31px 0px;
+}
+
+.data h2 {
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+  color: rgba(0, 0, 0, 0.543846);
+}
+
+.data h3 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  color: #27AE60;
+}
+
+.destination {
+  width: 58%;
+  text-align: center;
+}
+
+.destination h1 {
+  margin: 5px;
+  font-size: 16px;
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.right-arrow {
+  padding: 43px 0px 43px 16px;
+  width: 20%;
+  text-align: center;
+  float: right;
+}
+
+/* Bottom navigation
+/* light blue box */
+.main-nav {
+  background-color: #fff;
+  width: 100%;
+  color: #455A64;
+  margin-top: 5px;
+  box-shadow: 0px -2px 2px rgba(0, 0, 0, 0.25);
+}
+
+/* This makes the icons appear horizontally */
+.main-nav li {
+  display: inline-block;
+  font-size: 12px;
+  text-align: center;
+  width: 32%;
+  padding: 11px;
+}
+
+.bus-stops {
+}
+
+.ticket {
+  opacity: 0.54;
+}
+
+.map {
+  opacity: 0.54;
+}
+
+/* light green box */
+.bottom-nav {
+  background: #1C313A;
+  width: 100%;
+}
+
+.bottom-nav li {
+  display: inline-block;
+  text-align: center;
+  width: 32%;
+  padding: 19px;
+}
+
+.triangle {
+}
+
+.circle {
+}
+
+.square {
+}

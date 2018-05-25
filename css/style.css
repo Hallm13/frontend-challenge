@@ -7,13 +7,13 @@ body {
   background-color: #3535;
   font-family: Roboto, sans-serif;
   font-size: 10px;
-  width: 360px;
 }
 
 /* white box */
 section {
   margin: 0 auto;
   background-color: #fff;
+  width: 360px;
 }
 
 /* Top navigation */
@@ -48,7 +48,6 @@ section {
   opacity: 0.9;
 }
 
-/* gray box */
 .app-bar {
   background-color: #fff;
   width: 100%;
@@ -77,7 +76,7 @@ section {
 /* Middle content */
 
 .bus-card {
-  background-color: #E0E0E0;
+  background-color: #FAFAFA;
   width: 100%;
   border-bottom: 1px solid #E0E0E0;
   display: inline-block;
@@ -91,7 +90,7 @@ section {
 .data {
   width: 20%;
   text-align: left;
-  padding: 31px 0px 31px 0px;
+  padding: 31px 0px 31px 15px;
 }
 
 .data h2 {
@@ -110,6 +109,7 @@ section {
 .destination {
   width: 58%;
   text-align: center;
+  margin-top: 5px;
 }
 
 .destination h1 {

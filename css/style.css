@@ -9,10 +9,13 @@ body {
   font-size: 10px;
 }
 
+.container {
+  width: 360px;
+}
+
 section {
   margin: 0 auto;
   background-color: #fff;
-  width: 360px;
 }
 
 /* Top navigation */
@@ -116,6 +119,7 @@ section {
   font-weight: bold;
   color: #27AE60;
 }
+
 /* !important overrides .data h3 */
 .reroute {
   color: #F2994A !important;
@@ -138,6 +142,97 @@ section {
   color: rgba(0, 0, 0, 0.87);
 }
 
+/* Bus sign icons */
+.destination span {
+  height: 72px;
+  width: 72px;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.25);
+}
+
+/* Numbers within bus sign icons */
+.destination h2 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#oneTwentyFour {
+  background-color: #EB1C24;
+}
+
+#oneTwentyFour h2 {
+  color: #FCFCFC;
+}
+
+#jayFourteen {
+  background-color: #F0AB2C;
+}
+
+#jayFourteen h2 {
+  color: #032C3D;
+}
+
+#oneFiftyOne {
+  background-color: #E3E3E3;
+  border: 2px solid #19692C;
+}
+
+#oneFiftyOne h2 {
+  color: #19692C;
+}
+
+#sixty {
+  background-color: #18374B;
+}
+
+#sixty h2 {
+  color: #EF402B;
+  font-size: 40px;
+  margin-top: 15px;
+}
+
+#sixX {
+  background-color: #18374B;
+}
+
+#sixX h2 {
+  color: #FFFFFF;
+  font-size: 40px;
+  margin-top: 15px;
+}
+
+#four {
+  background: linear-gradient( -180deg, #F26943 50%, #FFFFFF 50% );
+}
+
+#four h2 {
+  color: #032C3D;
+  font-size: 60px;
+  margin-top: 7px;
+}
+
+#twenty {
+  background-color: #62BFE0;
+}
+
+#twenty h2 {
+  color: #F63629;
+  font-size: 40px;
+  margin-top: 15px;
+}
+
+#oneFiftySeven {
+  background-color: #116393;
+}
+
+#oneFiftySeven h2 {
+  color: #FDAD3E;
+}
 .right-arrow {
   padding: 43px 0px 43px 16px;
   width: 18%;

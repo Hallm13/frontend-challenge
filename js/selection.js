@@ -1,5 +1,5 @@
-const selection = document.querySelector('.bus-card');
-
-selection.addEventListener('click', function(){
-  this.classList.toggle('selected');
+$(document).ready(function() {
+  $('.bus-card').click( function(){
+    this.classList.toggle('selected');
+  });
 });

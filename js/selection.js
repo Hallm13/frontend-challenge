@@ -1,5 +1,6 @@
 $(document).ready(function() {
-  $('.bus-card').click( function(){
-    this.classList.toggle('selected');
-  });
+ $('.bus-card').click( function(){
+ $('.selected').removeClass('selected');
+ this.classList.toggle('selected');
+ });
 });

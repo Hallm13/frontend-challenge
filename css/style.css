@@ -121,12 +121,12 @@ section {
 }
 
 /* !important overrides .data h3 */
-.reroute {
-  color: #F2994A !important;
+.data .reroute {
+  color: #F2994A;
 }
 
-.resumes {
-  color: #EB1C24 !important;
+.data .resumes {
+  color: #EB1C24;
 }
 
 .destination {

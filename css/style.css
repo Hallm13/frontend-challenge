@@ -34,18 +34,6 @@ section {
   padding: 5px 1.5px 5px 1.5px;
 }
 
-.wifi {
-
-}
-
-.cellular {
-
-}
-
-.battery {
-
-}
-
 .time {
   opacity: 0.9;
 }
@@ -88,11 +76,20 @@ section {
   width: 100%;
   border-bottom: 1px solid #E0E0E0;
   display: inline-block;
+  transition: background 0.2s linear;
 }
 
-.bus-card:hover {
-  background-color: #F2F2F2;
+.bus-card {
+  cursor: pointer;
 }
+
+.selected {
+  background: #F2F2F2;
+}
+
+/* .selected .destination h1 { */
+  /* color: #FFFFFF; */
+/* } */
 
 /* This makes the icons appear horizontally */
 .bus-card li {
@@ -100,9 +97,9 @@ section {
 }
 
 .data {
-  width: 22%;
+  width: 23%;
   text-align: left;
-  padding: 31px 0px 31px 15px;
+  padding: 31px 0px 31px 12px;
 }
 
 /* Time or minutes until arrival*/
@@ -120,7 +117,6 @@ section {
   color: #27AE60;
 }
 
-/* !important overrides .data h3 */
 .data .reroute {
   color: #F2994A;
 }
@@ -130,9 +126,10 @@ section {
 }
 
 .destination {
-  width: 58%;
+  width: 57%;
   text-align: center;
   margin-top: 5px;
+  padding-right: 10px;
 }
 
 .destination h1 {
@@ -260,9 +257,6 @@ section {
   padding: 11px;
 }
 
-.bus-stops {
-}
-
 .ticket {
   opacity: 0.54;
 }
@@ -271,7 +265,7 @@ section {
   opacity: 0.54;
 }
 
-/* Back and Home and Recent */
+/* "Back" and "Home" and "Recent" */
 .bottom-nav {
   background: #1C313A;
   width: 100%;
@@ -282,13 +276,4 @@ section {
   text-align: center;
   width: 32%;
   padding: 19px;
-}
-
-.triangle {
-}
-
-.circle {
-}
-
-.square {
 }

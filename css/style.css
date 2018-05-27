@@ -84,7 +84,7 @@ section {
 }
 
 .selected {
-  background: green;
+  background: #eaeaea;
 }
 
 /* .selected .destination h1 { */
